@@ -13,6 +13,6 @@ where
     (name ilike '%jamba%' or name ilike '%juice%'
      or name ilike '%superfruit%'))
  or 
-    (cuisine like '%smoothie%' or cuisine like '%juice%');
+    (cuisine like '%smoothie%' or cuisine like '%ju%');
 
 
