@@ -1,7 +1,6 @@
 
 select * from sales.customers;
 
-
 list @trails_geojson;
 list @trails_parquet;
 show stages;
