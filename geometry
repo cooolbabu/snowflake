@@ -13,7 +13,7 @@ $1:features[0]:properties:Name::string as feature_name
 ,$1 as whole_object
 from @trails_geojson (file_format => ff_json);
 
-data passed to to_geography
+data passed to to_geography which accepts GeoJSON object
 {
   "geometry": {
     "coordinates": [
