@@ -1,10 +1,11 @@
 
 select * from sales.customers;
 
+USE MELS_SMOOTHIE_CHALLENGE_DB;
+USE SCHEMA TRAILS;
 list @trails_geojson;
 list @trails_parquet;
 show stages;
-
 select  * 
 from SONRA_DENVER_CO_USA_FREE.DENVER.V_OSM_DEN_AMENITY_SUSTENANCE
 where 
@@ -13,6 +14,6 @@ where
     (name ilike '%jamba%' or name ilike '%juice%'
      or name ilike '%superfruit%'))
  or 
-    (cuisine like '%smoothie%' or cuisine like '%juice%');
+    (cuisine like '%smoothie%' or cuisine like '%ju%');
 
 
